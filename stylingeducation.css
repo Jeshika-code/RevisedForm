@@ -6,15 +6,35 @@
 body{
     font-family: "Poppins", sans-serif;
     background-color:rgb(252, 250, 250);
-    
 }
+.side{
+    background-color:white;
+    float: inline-end;
+    height: 500px;
+    width: 100px;
+    margin-right: 234px;
+}
+.btn_one{
+    margin-top: 380px;
+    padding: 4px;
+    width: 60px;    
+    margin-left: 20px;
+    color: #3C6E71;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.logo{
+    margin-top: 20px;
+}
+    
 .container{
     width: 700px;
     height: 500px;
     background-color: #EAEFF5FA;
     margin: 50px auto;
 }
-h2{
+ h2{
     margin-bottom: 4px;
     text-transform: uppercase;
     margin-left: 170px;
@@ -39,12 +59,12 @@ form{
     margin-left: 2px;
 }
 .container1 input[type="text"]{
-    padding: 5px;
+    padding: 7px;
     font-size: small;
-    width: 61%;
+    width: 59%;
     display: flex;
     margin-top: 8px;
-    margin-left: 2px;
+    margin-left: 1px;
     border: none;
     border-radius: 5px;
 }
@@ -64,14 +84,14 @@ form{
 .input-row input[type="text"]{
     width: 75%;
     font-size: small;
-    padding: 5px;
+    padding: 6px;
     border: none;
     border-radius: 5px;
     background-color: (217, 217, 217, 0.4);
     margin-top: -22px;
 }
 .input-row select{
-    width: 80%;
+    width: 75%;
     margin-left: 20px;
     font-size: small;
     padding: 5px;
@@ -105,9 +125,10 @@ form{
     background-color: (217, 217, 217, 0.4);
     margin-top: -22px;
     margin-left: 19px;
+    color: #3C6E71;
+    font-weight: bold;
 
  }
-
  .container3{
     margin-top: 20px;
  }
