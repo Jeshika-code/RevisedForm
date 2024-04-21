@@ -34,14 +34,14 @@ body{
     background-color: #EAEFF5FA;
     margin: 50px auto;
 }
- h2{
+  h2{
     margin-bottom: 4px;
     text-transform: uppercase;
     margin-left: 170px;
     color: #3C6E71;
 }
 p{
-    margin-left: 150px;
+    margin-left: 170px;
     bottom: 20px;
     color:rgba(0, 0, 0, 0.5) ;
 }
@@ -90,14 +90,16 @@ form{
     background-color: (217, 217, 217, 0.4);
     margin-top: -22px;
 }
-.input-row select{
+ select{
     width: 75%;
     margin-left: 20px;
     font-size: small;
     padding: 5px;
     color: #3C6E71;
     font-weight: bold;
-    border: none;
+     border: none;
+    position: relative;
+    bottom: 21px;
     border-radius: 5px;
 }
 
