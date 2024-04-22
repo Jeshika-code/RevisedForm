@@ -24,7 +24,7 @@ $(document).ready(function () {
       firstEmptyField.focus();
     } 
     else {
-      window.location.href = "guardian.html";
+      window.location.href = "education.html";
     }
   });
 
